@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className=' bg-amber-50'>
       <div className='max-w-[1200px] p-2 mx-auto'>
         <SearchBar search={search} setSearch={setSearch} searchData={searchData} />
         <Display data={data} />

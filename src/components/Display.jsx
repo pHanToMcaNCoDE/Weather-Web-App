@@ -15,10 +15,12 @@ import { BsDroplet } from "react-icons/bs";
 
 const Display = ({data}) => {
   return (
-    <div className='border-2 border-[#333] w-[80%] mx-auto h-[85vh] flex flex-row lg:flex-col font-mono tracking-widest justify-between items-center px-4'>
+    <div className='w-full lg:w-[80%] mx-auto h-[85vh] flex flex-row lg:flex-col font-mono tracking-widest justify-between items-center px-4 gap-4'>
+
 
       {/* top */}
-      <div className='flex flex-col justify-between items-center my-auto'>
+        <div className='w-[65%] lg:w-[94%] h-[48vh] py-3 bg-[#000] translate-y-[8%] translate-x-4 relative mt-8'></div>
+      <div className='z-20 p-3 flex flex-col justify-between items-center mt-8 w-[60%] h-[50%] bg-red-100 border-4 border-[#000] absolute'>
         {
             data.name ? <p className='font-mono tracking-wider text-xl leading-normal'>{data.name}</p> : 'Country/City'
         }
@@ -55,7 +57,7 @@ const Display = ({data}) => {
       </div>
 
       {/* bottom */}
-      <div className='h-[80%] lg:h-auto lg:w-[60%] mx-auto flex flex-col lg:flex-row justify-center lg:gap-x-[8em] gap-y-8 lg:gap-y-0 items-center p-3 lg:bg-blue-50 my-3 rounded-[1em]'>
+      <div className='h-[80%] lg:h-auto lg:w-[60%] mx-auto flex flex-col lg:flex-row justify-center lg:gap-x-[8em] gap-y-8 lg:gap-y-0 items-center p-3 bg-blue-50 border-4 border-[#000] my-3 rounded-[1em]'>
         <div className='flex flex-col items-center'>
             <FiWind className='text-blue-400' size={30}/>
             <p className='font-mono tracking-wide text-[1.1rem]'>Wind</p>
