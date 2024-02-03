@@ -18,4 +18,5 @@ A weather app built using vite, react, tailwind, lottie icons, and axios. Openwe
 
 # After
 
-Coming soon
+<img width="1440" alt="Screenshot 2024-02-03 at 11 20 53" src="https://github.com/pHanToMcaNCoDE/Weather-Web-App/assets/113244998/38f3aeaa-d6f4-44cc-9c3b-9aaa1c2fa9d0">
+
