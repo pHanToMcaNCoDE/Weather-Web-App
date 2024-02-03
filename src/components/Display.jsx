@@ -20,7 +20,7 @@ const Display = ({data}) => {
 
       {/* top */}
         <div className='w-[65%] lg:w-[94%] h-[48vh] py-3 bg-[#000] translate-y-[8%] translate-x-4 relative mt-8'></div>
-      <div className='z-20 p-3 flex flex-col justify-between items-center mt-8 w-[60%] h-[50%] bg-red-100 border-4 border-[#000] absolute'>
+      <div className='z-20 p-3 flex flex-col justify-between items-center mt-8 w-[60%] h-[50%] bg-orange-200 border-4 border-[#000] absolute'>
         {
             data.name ? <p className='font-mono tracking-wider text-xl leading-normal'>{data.name}</p> : 'Country/City'
         }
