@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-02-02 at 22 14 03" src="https://github.com/pHanToMcaNCoDE/Weather-Web-App/assets/113244998/138b5c45-47c8-4f21-b69d-d3389c523f40"># React + Vite
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
