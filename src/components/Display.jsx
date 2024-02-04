@@ -29,12 +29,12 @@ const Display = ({data}) => {
             data.main ? <h1 className='text-5xl lg:text-7xl tracking-wider font-mono text-slate-500 py-4 leading-[3rem]'>{data.main.temp}°F</h1> : <h1 className='text-5xl lg:text-7xl tracking-wider font-mono text-slate-500 py-4 leading-[3rem]'>+20°F</h1>
         }
 
-        <div>
+        <div className='py-6 bg-[#fff] rounded-full w-[12rem] h-[12rem] px-2 border-2 border-[#000] flex justify-center items-center'>
             {
                 data.weather ?
                 // dust
                 data.weather[0].main === 'Dust' ? <img className='w-[10em] h-[10em] object-cover' src={dust} alt='Dust'></img> : 
-                // sun
+                // sun or clear
                 data.weather[0].main === 'Clear' ? <img className='w-[10em] h-[10em] object-cover' src={clear} alt='Clear'></img> : 
                 // cloud
                 data.weather[0].main === 'Clouds' ? <img className='w-[10em] h-[10em] object-cover' src={cloud} alt='Cloud'></img> : 
